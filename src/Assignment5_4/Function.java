@@ -1,10 +1,12 @@
+package Assignment5_4;
+
 /**
  * Developed by Sara Sandager (sara590x@edu.easj.dk)
  * Licensed under the MIT License
  * 01/10/2020
  */
 
-public class Function5_4 {
+public class Function {
     public static double runFunction5_4(){
         // Loop exercise 5.4 conversion from inch to centimeter.
         // Write a program that displays the following table (note that 1 inch = 2.54 cm).
@@ -35,12 +37,15 @@ public class Function5_4 {
     static String out2 = "The result in centimeters is not equal to the expectedOutput";
 
 
-    public static String compareToTest(double centimeters, double expectedOutput) {
+    public static String compareToTest(int inches, double expectedOutput) {
         //sets values + string to String out1 and out2.
 
         //run the 2 values given, through if selections, to find the highest value.
         //If centimeters and expectedOutput is equal, return out1.
         //If centimeters and expectedOutput is equal, return out2.
+
+        double centimeters = inches*2.54;
+
         if (centimeters == expectedOutput) {
             return out1;
         } else return out2;

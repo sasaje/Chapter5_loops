@@ -1,3 +1,5 @@
+package Assignment5_4;
+
 /**
  * Developed by Sara Sandager (sara590x@edu.easj.dk)
  * Licensed under the MIT License
@@ -7,6 +9,6 @@
 public class Main {
     public static void main(String[] args) {
         Userinterface.runUserinterface();
-        Test5_4.runTest();
+        Test.runTest();
     }
 }
